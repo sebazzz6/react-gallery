@@ -1,6 +1,6 @@
-import Cards from './components/cards.jsx'
+import Cards from './components/Card.jsx'
 import Header from './components/Header.jsx'
-import Footer from './components/foot.jsx'
+import Footer from './components/Footer.jsx'
 import React from 'react'
 import ArrImg from './components/arrInfo.jsx'
 
@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
       <Header
-        title="Nissan SkyLine GTR History"
+        title="Galería de Imágenes con
+        React - Nissan SkyLine GTR History"
         alignment="center"
         classname="header_title"
       />
