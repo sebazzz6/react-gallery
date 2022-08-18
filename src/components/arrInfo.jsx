@@ -1,0 +1,48 @@
+const myArray = [
+  {
+    id: 0,
+    src: './PGC10.jpg',
+    alt: 'First generation (1969–1972) PGC10',
+    name: 'PGC10',
+    generation: 'First generation',
+    age: '(1969–1972)',
+    history: 'The first Skyline GT-R, known by the internal Nissan designation of PGC10.......',
+  },
+  {
+    id: 1,
+    src: './KPGC110.jpg',
+    alt: 'Second generation (1973) KPGC110',
+    name: 'KPGC110',
+    generation: 'Second generation',
+    age: '(1973)',
+    history:'The KPGC10s successor, the KPGC110, was introduced in 1973 after its introduction....',
+  },
+  {
+    id: 2,
+    src: './R32.jpg',
+    alt: 'Third generation (1989–1994) R32',
+    name: 'R32',
+    generation: 'Third generation',
+    age: '(1989–1994)',
+    history:'After discontinuing the Skyline GT-R in 1973, Nissan revived the GT-R nameplate again in 1989.......',
+  },
+  {
+    id: 3,
+    src: './R33.jpg',
+    alt: 'Fourth generation (1995–1998)',
+    name: 'R33',
+    generation: 'Fourth generation',
+    age: '(1995–1998)',
+    history:'The E-BCNR33 (R33) was developed even as the non GT-R R33 models went on sale in August 1993.....',
+  },
+  {
+    id: 4,
+    src: './R34.jpg',
+    alt: 'Fifth generation',
+    name: 'R34',
+    generation: 'Fifth generation',
+    age: '(1999–2002)',
+    history:'The GF-BNR34 (R34) Skyline GT-R, GT-R V·Spec and GT-R V·Spec N1 models were introduced in January 1999...',
+  },
+]
+export default myArray

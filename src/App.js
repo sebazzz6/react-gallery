@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Cards from './components/cards.jsx'
+import Header from './components/Header.jsx'
+import Footer from './components/foot.jsx'
+import React from 'react'
+import ArrImg from './components/arrInfo.jsx'
 
+const imgSkyLine = require.context('./assets/img', true)
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        title="Nissan SkyLine GTR History"
+        alignment="center"
+        classname="header_title"
+      />
+      <div className="card_container">
+        {ArrImg.map((e) => (
+          <Cards
+            key={e.id}
+            src={imgSkyLine(e.src)}
+            alt={e.alt}
+            name={e.name}
+            generation={e.generation}
+            age={e.age}
+            history={e.history}
+          />
+        ))}
+      </div>
+      <Footer />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
