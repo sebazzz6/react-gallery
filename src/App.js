@@ -1,8 +1,9 @@
 import Cards from './components/Card.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
-import React from 'react'
 import ArrImg from './components/arrInfo.jsx'
+import React from 'react'
+
 
 const imgSkyLine = require.context('./assets/img', true)
 function App() {
